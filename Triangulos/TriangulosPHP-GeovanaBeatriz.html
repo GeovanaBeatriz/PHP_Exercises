@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o meu triângulo</title>
+
+    <style>
+
+        body{
+            background-color: thistle;
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            padding: 0 0 0 2em;
+            width: 20em;
+            height: 30em;
+            background-color: white;
+            margin-left: center;
+            margin: auto;
+            margin-top: 5em;
+        }
+
+        h1{
+            font-size: 20px;
+        }
+
+        h4{
+            font-size: 13px;
+        }
+
+
+        input{
+
+            width: 80%;
+            height: 2em;
+            border: none;
+            border-bottom:solid 1px black;
+        }
+
+        button{
+            margin-top: 1em;
+            width: 80%;
+            height: 2em;
+            background-color: thistle;
+            border-radius: 1em;
+            border: solid 1px thistle;
+        }
+
+        
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+    
+        <form method="post" action="http://localhost/PW2_Estudos/ExerciciosdeFixacao/Triangulos/Exercicio2.php">
+
+        
+            <h1> Digite três valores </h1>
+            <label><h4>Primeiro número:</h4></label>
+            <input type="text" name="L1" placeholder="Primeiro lado">
+        
+            <label><h4>Segundo número:</h4></label>
+            <input type="text" name="L2" placeholder="Segundo lado">
+
+            <label><h4>Terceiro número:</h4></label>
+            <input type="text" name="L3" placeholder="Terceiro lado">
+        
+            <button type="submit" name="Enviar">Qual o meu triângulo?</button>
+       
+        
+        </form> 
+    </div> 
+    
+</body>
+</html>
